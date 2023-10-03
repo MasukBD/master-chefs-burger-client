@@ -1,0 +1,7 @@
+.chef-card {
+    transition: transform .2s .1s;
+}
+
+.chef-card:hover {
+    transform: scale(1.01);
+}

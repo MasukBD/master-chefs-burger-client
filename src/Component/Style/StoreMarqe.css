@@ -1,0 +1,5 @@
+.marque:hover div {
+    display: block !important;
+    color: white;
+    cursor: pointer;
+}

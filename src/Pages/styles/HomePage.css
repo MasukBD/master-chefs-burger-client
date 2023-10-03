@@ -1,0 +1,9 @@
+@media only screen and (max-width: 576px) {
+    .slide-img {
+        height: 300px;
+    }
+
+    .get-app img {
+        width: 100% !important;
+    }
+}
