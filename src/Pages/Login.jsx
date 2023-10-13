@@ -8,6 +8,7 @@ import icon2 from '../assets/company-icon/github.png';
 import { AuthContext } from '../Provider/AuthProvider';
 import { toast } from 'react-hot-toast';
 import { updateProfile } from 'firebase/auth';
+import useTitle from '../CustomHook/UseTitle';
 
 const Login = () => {
 
@@ -59,7 +60,7 @@ const Login = () => {
                 setShowError(error.meassage);
             })
     }
-
+    useTitle('Login');
     return (
         <Container className='d-flex flex-column justify-content-center align-items-center' style={{ height: '100vh' }}>
             <h3>Please Login</h3>

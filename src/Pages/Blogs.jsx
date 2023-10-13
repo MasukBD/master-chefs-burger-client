@@ -4,6 +4,7 @@ import { Button, Container } from 'react-bootstrap';
 import { useState } from 'react';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
+import useTitle from '../CustomHook/UseTitle';
 
 const Blogs = () => {
     const [loader, setLoader] = useState(false);
@@ -20,6 +21,7 @@ const Blogs = () => {
             doc.save('Q&A_React.pdf');
         })
     }
+    useTitle("Blogs");
     return (
         <div>
             <h2 className='text-center fw-bold bg-warning py-5'>Frequently Asked Question and Answer</h2>

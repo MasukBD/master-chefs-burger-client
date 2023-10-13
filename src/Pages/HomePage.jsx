@@ -12,9 +12,12 @@ import Marquee from "react-fast-marquee";
 import play from '../assets/company-icon/get-in-on-google-play.png';
 import appStore from '../assets/company-icon/get-it-on-app-store.jpg';
 import { useLoaderData } from 'react-router-dom';
+import useTitle from '../CustomHook/UseTitle';
 
 const HomePage = () => {
     const storeData = useLoaderData();
+
+    useTitle('Home');
     return (
         <>
             {/* banner section  */}
