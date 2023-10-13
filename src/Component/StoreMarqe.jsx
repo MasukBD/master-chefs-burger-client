@@ -10,10 +10,10 @@ const StoreMarqe = ({ store }) => {
     return (
         <div className='ms-3 position-relative marque'>
             <img className='rounded' width={290} height={400} src={store_image} alt="" />
-            <div className='position-absolute top-0 start-0 d-none ps-3 py-5 bg-dark rounded bg-opacity-50'>
+            <div className='position-absolute top-0 start-0 bottom-0 d-none ps-3 py-5 bg-dark rounded bg-opacity-50'>
                 <h2>{title}</h2>
                 <p>{des}</p>
-                <Button variant="warning">Explore More <FaArrowRight /></Button>
+                <Button className='mt-2' variant="warning">Explore More <FaArrowRight /></Button>
             </div>
         </div>
     );

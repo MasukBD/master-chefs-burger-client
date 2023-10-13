@@ -22,7 +22,7 @@ const Blogs = () => {
     }
     return (
         <div>
-            <h2 className='text-center fw-bold bg-warning py-5'>Question and Answer</h2>
+            <h2 className='text-center fw-bold bg-warning py-5'>Frequently Asked Question and Answer</h2>
             <Container className='blog'>
                 <div className='my-3'>
                     <h5>Question 1: Tell us the differences between uncontrolled and controlled components?</h5>
